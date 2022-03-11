@@ -3,8 +3,8 @@ from flask import Flask
 from flask import request
 from flask_cors import CORS
 
-from filewriter import newRead, findAnswer
-from chatbot import read_file, find_similarity, answer
+from app.utilities import chatbot
+from app.utilities import filewriter
 
 app = Flask(__name__)
 CORS(app)
@@ -17,15 +17,15 @@ def index():
 
 @app.route("/answer", methods=['POST'])
 def answer_endpoint():
-    newRead()
+    filewriter.newRead()
 
-    questions = read_file("data/questions.txt")
+    questions = chatbot.read_file("data/questions.txt")
     message = request.json['message']
 
-    ranks = find_similarity(questions, message)
-    a_index = answer(ranks)
+    ranks = chatbot.find_similarity(questions, message)
+    a_index = chatbot.answer(ranks)
 
-    return findAnswer(a_index)
+    return filewriter.findAnswer(a_index)
 
 
 if __name__ == "__main__":

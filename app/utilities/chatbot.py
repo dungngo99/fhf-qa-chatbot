@@ -2,7 +2,7 @@ from nltk.corpus import stopwords
 import nltk
 import spacy
 
-nlp = spacy.load("en_core_web_md")
+nlp = spacy.load("en_core_web_sm")
 nltk.download('stopwords')
 nltk.download('punkt')
 sw = stopwords.words("english")
