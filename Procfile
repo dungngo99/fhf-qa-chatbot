@@ -1,2 +1,2 @@
 web: python -m spacy download en_core_web_sm
-web: gunicorn wsgi:app
+web: gunicorn --bind 0.0.0.0:$PORT wsgi:fhf_qa_chatbot
