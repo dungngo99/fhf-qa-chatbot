@@ -1,18 +1,16 @@
 from re import I
 from flask import Flask
 from flask import request
-from flask_cors import CORS
 
 from app.utilities import chatbot
 from app.utilities import filewriter
 
 app = Flask(__name__)
-CORS(app)
 
 
 @app.route("/")
 def index():
-    return "Welcome to our app, FHF QA Chatbot!"
+    return "<h1>Welcome to our app, FHF QA Chatbot!</h1>"
 
 
 @app.route("/answer", methods=['POST'])
