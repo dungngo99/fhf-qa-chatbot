@@ -4,15 +4,15 @@ from flask import request
 from app.utilities import chatbot
 from app.utilities import filewriter
 
-app = Flask(__name__)
+fhf_qa_chatbot = Flask(__name__)
 
 
-@app.route("/")
+@fhf_qa_chatbot.route("/")
 def index():
     return "<h1>Welcome to our app, FHF QA Chatbot!</h1>"
 
 
-@app.route("/answer", methods=['POST'])
+@fhf_qa_chatbot.route("/answer", methods=['POST'])
 def answer_endpoint():
     filewriter.newRead()
 
@@ -26,4 +26,4 @@ def answer_endpoint():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    fhf_qa_chatbot.run(debug=True)

@@ -1,4 +1,4 @@
-from app.main import app
+from app.run import fhf_qa_chatbot
 
 if __name__ == '__main__':
-    app.run()
+    fhf_qa_chatbot.run()
