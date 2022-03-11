@@ -1,4 +1,3 @@
-from re import I
 from flask import Flask
 from flask import request
 
