@@ -1,12 +1,18 @@
+from re import I
 from flask import Flask
 from flask import request
 from flask_cors import CORS
 
-from utilities.chatbot import read_file, find_similarity, answer
-from utilities.filewriter import findAnswer, newRead
+from filewriter import newRead, findAnswer
+from chatbot import read_file, find_similarity, answer
 
 app = Flask(__name__)
 CORS(app)
+
+
+@app.route("/")
+def index():
+    return "Welcome to our app, FHF QA Chatbot!"
 
 
 @app.route("/answer", methods=['POST'])
@@ -22,5 +28,5 @@ def answer_endpoint():
     return findAnswer(a_index)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
