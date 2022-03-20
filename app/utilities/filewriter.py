@@ -48,4 +48,6 @@ def findAnswer(a_index):
     answers_col = sheet.sheet1.col_values(2)
     sources_col = sheet.sheet1.col_values(3)
 
+    print(answers_col[a_index + 1])
+
     return [answers_col[a_index + 1], sources_col[a_index+1]]

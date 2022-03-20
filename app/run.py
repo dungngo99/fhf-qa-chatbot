@@ -1,11 +1,12 @@
 from flask import Flask
 from flask import request
 
-from app.utilities import chatbot
-from app.utilities import filewriter
+from utilities import chatbot
+from utilities import filewriter
+from flask_cors import CORS
 
 fhf_qa_chatbot = Flask(__name__)
-
+CORS(fhf_qa_chatbot)
 
 @fhf_qa_chatbot.route("/")
 def index():
