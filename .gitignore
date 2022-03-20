@@ -1,6 +1,3 @@
 *.json
-<<<<<<< HEAD
-=======
 .DS_STORE
 __pycache__
->>>>>>> 9edcd49cbe2281c93f6698649fd04ea4b7b2845c
