@@ -10,7 +10,7 @@
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 350px;
+    width: 500px;
     text-align: left;
     outline: none;
     font-size: 18px;
@@ -27,7 +27,7 @@
 }
 
 .full-chat-block {
-    width: 350px;
+    width: 500px;
     background: white;
     text-align: center;
     overflow: auto;
@@ -72,7 +72,7 @@
     display: flex;
     justify-content: space-evenly;
     box-sizing: border-box;
-    width: 25%;
+    width: 10%;
     float: right;
     font-size: 20px;
 }
@@ -84,7 +84,17 @@
 /* Chat bubbles */
 
 #userInput {
-    width: 75%;
+    width: 90%;
+}
+
+.phone-box {
+  width: 100%;
+  text-align:center;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: grey;
+  box-sizing: border-box;
 }
 
 .input-box {
