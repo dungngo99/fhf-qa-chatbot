@@ -24,6 +24,10 @@ def find_similarity(questions, user):
         ranks.append((idx, similarity))
 
     sorted_ranks = sorted(ranks, key=lambda x: x[1], reverse=True)
+
+    if sorted_ranks[0][1] < 0.8:
+        return []
+    
     return sorted_ranks
 
 
@@ -33,6 +37,6 @@ def answer(ranks):
 
 
 if __name__ == "__main__":
-    questions = read_file("data/questions.txt")
+    questions = read_file("./app/data/questions.txt")
     ranks = find_similarity(questions, "Can you tell me what an IEP is")
     rank = answer(ranks)

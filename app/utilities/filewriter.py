@@ -1,6 +1,8 @@
 import gspread
+import logging
 from oauth2client.service_account import ServiceAccountCredentials
 
+logger = logging.Logger(__name__)
 
 def newRead():
     scopes = [
@@ -10,7 +12,7 @@ def newRead():
 
     # access the json key you downloaded earlier
     credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        "testkey.json", scopes)
+        "./app/testkey.json", scopes)
 
     # authenticate the JSON key with gspread
     file = gspread.authorize(credentials)
@@ -21,10 +23,10 @@ def newRead():
     # replace sheet_name with the name that corresponds to yours, e.g, it can be sheet1
     questions_col = sheet.sheet1.col_values(1)
 
-    with open('data/questions.txt', 'w') as f:
+    with open('./app/data/questions.txt', 'w') as f:
         f.write("\n".join(questions_col[1:]))
 
-    print("Successfully updated questions.txt")
+    logger.info("Successfully updated questions.txt")
 
 
 def findAnswer(a_index):
@@ -35,7 +37,7 @@ def findAnswer(a_index):
 
     # access the json key you downloaded earlier
     credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        "testkey.json", scopes
+        "./app/testkey.json", scopes
     )
 
     # authenticate the JSON key with gspread
@@ -47,7 +49,6 @@ def findAnswer(a_index):
     # replace sheet_name with the name that corresponds to yours, e.g, it can be sheet1
     answers_col = sheet.sheet1.col_values(2)
     sources_col = sheet.sheet1.col_values(3)
-
-    print(answers_col[a_index + 1])
-
-    return [answers_col[a_index + 1], sources_col[a_index+1]]
+    
+    return [answers_col[a_index + 1] if a_index+1 < len(answers_col) else "Can't find the answer. Please try again!", 
+            sources_col[a_index+1] if a_index+1 < len(sources_col) else "Can't find the source. Please try again!"]

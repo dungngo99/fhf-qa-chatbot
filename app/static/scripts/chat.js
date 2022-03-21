@@ -44,15 +44,14 @@ function firstBotMessage() {
   document.getElementById("userInput").scrollIntoView(false);
 }
 
-firstBotMessage();
-
 async function getHardResponse(userText) {
   let botResponse = await getBotResponse(userText);
-  let botHtml = '<p class="botText"><span>' + botResponse['answer'][0];
-  for (let i = 1; i < botResponse['answer'].length; i++){
-    botHtml += '<br>' + botResponse['answer'][i];
-  }
-  botHtml += '</span></p>';
+
+  let botHtml = '<p class="botText"><span>' + botResponse['answer'] + '</span></p>';
+  // for (let i = 1; i < botResponse['answer'].length; i++) {
+  //   botHtml += '<br>' + botResponse['answer'][i];
+  // }
+  // botHtml += '</span></p>';
   $("#chatbox").append(botHtml);
 
   if (botResponse['source'] != "") {
@@ -99,3 +98,5 @@ $("#textInput").keypress(function (e) {
     getResponse();
   }
 })
+
+// firstBotMessage();
