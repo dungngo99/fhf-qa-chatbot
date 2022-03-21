@@ -7,7 +7,7 @@ async function getBotResponse(input) {
   } else if (input == "Hi, I have a question!") {
     return { "answer": ["What's the question? Maybe we can help!"], "source": "" };
   } else {
-    let url = 'http://0.0.0.0:5000/answer';
+    let url = 'http://127.0.0.1:5000/answer';
     let data = { "message": input };
 
     try {
