@@ -7,12 +7,13 @@ async function getBotResponse(input) {
   } else if (input == "Hi, I have a question!") {
     return { "answer": ["What's the question? Maybe we can help!"], "source": "" };
   } else {
-    let url = 'http://0.0.0.0:5000/answer';
+    let url = 'https://fhf-qa-chatbot.herokuapp.com/answer';
     let data = { "message": input };
 
     try {
       const response = await fetch(url, {
         method: 'POST',
+        mode: 'cors',
         headers: {
           'Content-Type': 'application/json'
         },
