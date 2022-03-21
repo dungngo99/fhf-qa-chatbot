@@ -1,1 +1,1 @@
-web: sh -c 'pip install -U spacy && python -m spacy download en_core_web_sm && gunicorn --bind 0.0.0.0:$PORT wsgi:fhf_qa_chatbot'
+web: sh -c 'pip install -r requirements.txt && python -m spacy download en_core_web_sm && gunicorn --bind 0.0.0.0:5000 wsgi:fhf_qa_chatbot'
