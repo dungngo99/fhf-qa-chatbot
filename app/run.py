@@ -21,7 +21,7 @@ def answer_endpoint():
     ranks = chatbot.find_similarity(questions, message)
     
     if len(ranks) == 0:
-        return {'answer': "Can't find an answer. Please try again", "source": "Can't find an answer. Please try agin"}
+        return {'answer': "Can't find an answer. Please try again", "source": "Can't find an answer. Please try again"}
     
     a_index = chatbot.answer(ranks)
     answerWithSource = filewriter.findAnswer(a_index)
