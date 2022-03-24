@@ -21,7 +21,7 @@ def find_similarity(questions, user):
 
     if sorted_ranks[0][1] < 0.8:
         return []
-    
+
     return sorted_ranks
 
 
