@@ -2,7 +2,7 @@ from nltk.corpus import stopwords
 import nltk
 import spacy
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_md")
 nltk.download('stopwords')
 nltk.download('punkt')
 sw = stopwords.words("english")
@@ -27,7 +27,7 @@ def find_similarity(questions, user):
 
     if sorted_ranks[0][1] < 0.8:
         return []
-    
+
     return sorted_ranks
 
 
