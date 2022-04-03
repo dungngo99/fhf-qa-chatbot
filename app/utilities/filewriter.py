@@ -4,6 +4,17 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 logger = logging.Logger(__name__)
 
+def expand_acronyms(acronyms, question):
+    word_list = question.split()
+
+    for i in range(len(word_list)):
+        if word_list[i] in acronyms:
+            word_list[i] = acronyms[word_list[i]]
+
+    question = " ".join(word_list)
+
+    return question
+
 def newRead():
     scopes = [
         'https://www.googleapis.com/auth/spreadsheets',
@@ -20,14 +31,6 @@ def newRead():
     # open sheet
     sheet = file.open("QA Window")
 
-    # replace sheet_name with the name that corresponds to yours, e.g, it can be sheet1
-    questions_col = sheet.sheet1.col_values(1)
-
-    with open('../app/data/questions.txt', 'w') as f:
-        f.write("\n".join(questions_col[1:]))
-
-    logger.info("Successfully updated questions.txt")
-
     acronyms = {}
 
     acronym_col = sheet.worksheet("Sheet2").col_values(1)
@@ -36,6 +39,16 @@ def newRead():
         acronyms[acronym_col[i]] = translated_col[i]
 
     logger.info("Created acronym dictionary")
+
+    questions_col = sheet.sheet1.col_values(1)
+
+    for i in range(1, len(questions_col)-1):
+        questions_col[i] = expand_acronyms(acronyms, questions_col[i])
+
+    with open('../app/data/questions.txt', 'w') as f:
+        f.write("\n".join(questions_col[1:]))
+
+    logger.info("Successfully updated questions.txt")
 
     return acronyms
 

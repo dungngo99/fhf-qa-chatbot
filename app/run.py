@@ -15,6 +15,7 @@ def index():
 @fhf_qa_chatbot.route("/answer", methods=['POST'])
 def answer_endpoint():
     acronyms = filewriter.newRead()
+    print(acronyms)
 
     message = request.json['message']
     questions = chatbot.read_file("./app/data/questions.txt")
