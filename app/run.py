@@ -6,7 +6,6 @@ from flask_cors import CORS
 
 fhf_qa_chatbot = Flask(__name__)
 CORS(fhf_qa_chatbot, resources={r"*": {"origins": "*"}})
-acronyms = filewriter.newRead()
 
 @fhf_qa_chatbot.route("/")
 def index():
@@ -15,9 +14,11 @@ def index():
 @fhf_qa_chatbot.route("/answer", methods=['POST'])
 def answer_endpoint():
     acronyms = filewriter.newRead()
-    print(acronyms)
+    logger.info("Created acronym dictionary")
 
     message = request.json['message']
+    message = filewriter.expand_acronyms(acronyms, message)
+
     questions = chatbot.read_file("./app/data/questions.txt")
 
     ranks = chatbot.find_similarity(questions, message)

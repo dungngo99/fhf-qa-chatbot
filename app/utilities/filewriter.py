@@ -5,6 +5,9 @@ from oauth2client.service_account import ServiceAccountCredentials
 logger = logging.Logger(__name__)
 
 def expand_acronyms(acronyms, question):
+    question = question.replace("?", "")
+    question = question.replace("!", "")
+    question = question.replace(".", "")
     word_list = question.split()
 
     for i in range(len(word_list)):
