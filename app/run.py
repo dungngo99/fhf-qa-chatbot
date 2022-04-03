@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, send_from_directory
 
-from app.utilities import chatbot
-from app.utilities import filewriter
+from utilities import chatbot
+from utilities import filewriter
 from flask_cors import CORS
 
 fhf_qa_chatbot = Flask(__name__)
@@ -13,16 +13,19 @@ def index():
 
 @fhf_qa_chatbot.route("/answer", methods=['POST'])
 def answer_endpoint():
-    filewriter.newRead()
+    acronyms = filewriter.newRead()
+    logger.info("Created acronym dictionary")
 
     message = request.json['message']
+    message = filewriter.expand_acronyms(acronyms, message)
+
     questions = chatbot.read_file("./app/data/questions.txt")
 
     ranks = chatbot.find_similarity(questions, message)
-    
+
     if len(ranks) == 0:
-        return {'answer': "Can't find an answer. Please try again", "source": "Can't find an answer. Please try again"}
-    
+        return {'answer': "Can't find an answer. Try rephrasing, or call (504) 888-9111 to get help!", "source": ""}
+
     a_index = chatbot.answer(ranks)
     answerWithSource = filewriter.findAnswer(a_index)
 
