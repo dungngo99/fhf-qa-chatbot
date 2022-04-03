@@ -49,6 +49,6 @@ def findAnswer(a_index):
     # replace sheet_name with the name that corresponds to yours, e.g, it can be sheet1
     answers_col = sheet.sheet1.col_values(2)
     sources_col = sheet.sheet1.col_values(3)
-    
-    return [answers_col[a_index + 1] if a_index+1 < len(answers_col) else "Can't find the answer. Please try again!", 
-            sources_col[a_index+1] if a_index+1 < len(sources_col) else "Can't find the source. Please try again!"]
+
+    return [answers_col[a_index + 1] if a_index+1 < len(answers_col) else "Can't find the answer. Please try again!",
+            sources_col[a_index+1] if a_index+1 < len(sources_col) else ""]
