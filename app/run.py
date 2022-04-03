@@ -6,6 +6,7 @@ from flask_cors import CORS
 
 fhf_qa_chatbot = Flask(__name__)
 CORS(fhf_qa_chatbot, resources={r"*": {"origins": "*"}})
+acronyms = filewriter.newRead()
 
 @fhf_qa_chatbot.route("/")
 def index():
@@ -13,7 +14,7 @@ def index():
 
 @fhf_qa_chatbot.route("/answer", methods=['POST'])
 def answer_endpoint():
-    filewriter.newRead()
+    acronyms = filewriter.newRead()
 
     message = request.json['message']
     questions = chatbot.read_file("./app/data/questions.txt")
