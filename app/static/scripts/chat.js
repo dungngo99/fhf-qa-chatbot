@@ -47,11 +47,13 @@ function firstBotMessage() {
 async function getHardResponse(userText) {
   let botResponse = await getBotResponse(userText);
 
+  if (botResponse['question'] != "") {
+    $("#chatbox").append('<p class="botText"><span> Here\'s a commonly asked question we found: </span></p>');
+    let questionHtml = '<p class="botText"><span> QUESTION: ' + botResponse['question'] + '</span></p>';
+    $("#chatbox").append(questionHtml);
+  }
+
   let botHtml = '<p class="botText"><span>' + botResponse['answer'] + '</span></p>';
-  // for (let i = 1; i < botResponse['answer'].length; i++) {
-  //   botHtml += '<br>' + botResponse['answer'][i];
-  // }
-  // botHtml += '</span></p>';
   $("#chatbox").append(botHtml);
 
   if (botResponse['source'] != "") {

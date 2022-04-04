@@ -29,7 +29,7 @@ def answer_endpoint():
     a_index = chatbot.answer(ranks)
     answerWithSource = filewriter.findAnswer(a_index)
 
-    return {'answer': answerWithSource[0], 'source': answerWithSource[1]}
+    return {'answer': answerWithSource[0], 'source': answerWithSource[1], 'question': answerWithSource[2]}
 
 
 if __name__ == "__main__":
