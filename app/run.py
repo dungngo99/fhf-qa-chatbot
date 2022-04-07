@@ -1,35 +1,31 @@
-from flask import Flask, request, render_template, send_from_directory
-
-from utilities import chatbot
-from utilities import filewriter
+import asyncio
+from flask import Flask, request, render_template
 from flask_cors import CORS
+
+from app.utilities import chatbot
+from app.utilities import filewriter
 
 fhf_qa_chatbot = Flask(__name__)
 CORS(fhf_qa_chatbot, resources={r"*": {"origins": "*"}})
+
 
 @fhf_qa_chatbot.route("/")
 def index():
     return render_template('index.html')
 
+
 @fhf_qa_chatbot.route("/answer", methods=['POST'])
 def answer_endpoint():
-    acronyms = filewriter.newRead()
-    logger.info("Created acronym dictionary")
-
     message = request.json['message']
-    message = filewriter.expand_acronyms(acronyms, message)
 
-    questions = chatbot.read_file("./app/data/questions.txt")
+    async def run_tasks():
+        asyncio.create_task(filewriter.fetchGoogleSheet())
+        findAnswerTask = asyncio.create_task(chatbot.find_answer(message))
 
-    ranks = chatbot.find_similarity(questions, message)
+        answer = await findAnswerTask
+        return answer
 
-    if len(ranks) == 0:
-        return {'answer': "Can't find an answer. Try rephrasing, or call (504) 888-9111 to get help!", "source": ""}
-
-    a_index = chatbot.answer(ranks)
-    answerWithSource = filewriter.findAnswer(a_index)
-
-    return {'answer': answerWithSource[0], 'source': answerWithSource[1], 'question': answerWithSource[2]}
+    return asyncio.run(run_tasks())
 
 
 if __name__ == "__main__":

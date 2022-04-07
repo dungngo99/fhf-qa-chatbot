@@ -1,1 +1,1 @@
-web: sh -c 'pip install -r requirements.txt && python -m spacy download en_core_web_sm && gunicorn wsgi:fhf_qa_chatbot'
+web: sh -c 'pip install -r requirements.txt && python -m spacy download en_core_web_sm && python -m spacy download en_core_web_md && gunicorn wsgi:fhf_qa_chatbot'

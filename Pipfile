@@ -51,6 +51,9 @@ urllib3 = "*"
 wasabi = "*"
 Werkzeug = "*"
 flask-cors = "*"
+pandas = "*"
+sense2vec = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
