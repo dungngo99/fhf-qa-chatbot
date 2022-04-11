@@ -1,0 +1,41 @@
+{
+  "en_core_web_sm": {
+    "Should I have my child evaluated for special education": 0.8,
+    "What is an Individualized Education Plan": 0.2,
+    "Can the school use my private evaluation to expedite the evaluation process": 1.0,
+    "How long does it take to get my child evaluated": 0.4,
+    "What happens if the parent disagree with the evaluation": 0.4,
+    "Does the school have to tell me who will be attending the meeting": 1.0,
+    "Is there an age limit on the different ages in the same special education class": 1.0,
+    "What is the age a child can receive special education services": 0.6,
+    "Will students aging out of Early Steps automatically qualify for special education services": 0.4,
+    "Can Individualized Education Plan members miss the Individualized Education Plan meeting, come in late, or leave early": 0.0,
+    "average score": 0.58
+  },
+  "en_core_web_md": {
+    "Should I have my child evaluated for special education": 0.8,
+    "What is an Individualized Education Plan": 0.2,
+    "Can the school use my private evaluation to expedite the evaluation process": 1.0,
+    "How long does it take to get my child evaluated": 1.0,
+    "What happens if the parent disagree with the evaluation": 0.6,
+    "Does the school have to tell me who will be attending the meeting": 1.0,
+    "Is there an age limit on the different ages in the same special education class": 1.0,
+    "What is the age a child can receive special education services": 1.0,
+    "Will students aging out of Early Steps automatically qualify for special education services": 0.4,
+    "Can Individualized Education Plan members miss the Individualized Education Plan meeting, come in late, or leave early": 0.0,
+    "average score": 0.7
+  },
+  "en_core_web_lg": {
+    "Should I have my child evaluated for special education": 0.8,
+    "What is an Individualized Education Plan": 0.2,
+    "Can the school use my private evaluation to expedite the evaluation process": 0.8,
+    "How long does it take to get my child evaluated": 1.0,
+    "What happens if the parent disagree with the evaluation": 0.6,
+    "Does the school have to tell me who will be attending the meeting": 1.0,
+    "Is there an age limit on the different ages in the same special education class": 1.0,
+    "What is the age a child can receive special education services": 1.0,
+    "Will students aging out of Early Steps automatically qualify for special education services": 0.4,
+    "Can Individualized Education Plan members miss the Individualized Education Plan meeting, come in late, or leave early": 0.0,
+    "average score": 0.68
+  }
+}
