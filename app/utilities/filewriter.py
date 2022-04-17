@@ -37,13 +37,14 @@ def save_data(sheet):
     questions_col = sheet.sheet1.col_values(1)
     answers_col = sheet.sheet1.col_values(2)
     sources_col = sheet.sheet1.col_values(3)
-    punctuation_col = ["With Punctuation"]
+    punctuation_col = []
 
     # Make all lists to have the same length
     max_length = max([len(questions_col), len(answers_col), len(sources_col)])
     questions_col += [""]*(max_length-len(questions_col))
     answers_col += [""]*(max_length-len(answers_col))
     sources_col += [""]*(max_length-len(sources_col))
+    punctuation_col += [""]*(max_length-len(punctuation_col))
 
     df = pd.read_csv('app/data/acronyms.csv')
     acronyms = {}
@@ -51,7 +52,7 @@ def save_data(sheet):
         acronyms[df.iloc[i,0]] = df.iloc[i,1]
 
     for i in range(1, len(questions_col)-1):
-        punctuation_col.append(questions_col[i])
+        punctuation_col[i] = questions_col[i]
         questions_col[i] = expand_acronyms(acronyms, questions_col[i])
 
     data = {
