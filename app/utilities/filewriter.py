@@ -1,13 +1,14 @@
 from typing import List
 import gspread
 import pandas as pd
+import string
 from oauth2client.service_account import ServiceAccountCredentials
 
 
 def expand_acronyms(acronyms, question):
-    question = question.replace("?", "")
-    question = question.replace("!", "")
-    question = question.replace(".", "")
+    for mark in string.punctuation:
+        question = question.replace(mark, "")
+
     word_list = question.split()
 
     for i in range(len(word_list)):
@@ -36,6 +37,7 @@ def save_data(sheet):
     questions_col = sheet.sheet1.col_values(1)
     answers_col = sheet.sheet1.col_values(2)
     sources_col = sheet.sheet1.col_values(3)
+    punctuation_col = ["With Punctuation"]
 
     # Make all lists to have the same length
     max_length = max([len(questions_col), len(answers_col), len(sources_col)])
@@ -49,12 +51,14 @@ def save_data(sheet):
         acronyms[df.iloc[i,0]] = df.iloc[i,1]
 
     for i in range(1, len(questions_col)-1):
+        punctuation_col[i] = questions_col[i]
         questions_col[i] = expand_acronyms(acronyms, questions_col[i])
 
     data = {
         "questions": questions_col[1:],
         "answers": answers_col[1:],
-        "sources": sources_col[1:]
+        "sources": sources_col[1:],
+        "questions with punctuation": punctuation_col[1:]
     }
 
     pd.DataFrame(data).fillna(value="").to_csv("app/data/data.csv", index=False)

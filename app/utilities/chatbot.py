@@ -28,7 +28,7 @@ async def find_answer(user: str) -> Dict:
 
     # create a Doc object
     user_doc = nlp(filewriter.expand_acronyms(acronyms, user))
-    
+
     # A list of similarity scores
     ranks = []
 
@@ -50,7 +50,7 @@ async def find_answer(user: str) -> Dict:
         return {"question": "", "answer": "", "source": ""}
 
     best_idx = sorted_ranks[0][0]
-    return {"question": df.iloc[best_idx, 0], "answer": df.iloc[best_idx, 1], "source": df.iloc[best_idx, 2]}
+    return {"question": df.iloc[best_idx, 3], "answer": df.iloc[best_idx, 1], "source": df.iloc[best_idx, 2]}
 
 
 if __name__ == "__main__":
