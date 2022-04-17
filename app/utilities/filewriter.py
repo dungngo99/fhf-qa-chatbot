@@ -51,7 +51,7 @@ def save_data(sheet):
         acronyms[df.iloc[i,0]] = df.iloc[i,1]
 
     for i in range(1, len(questions_col)-1):
-        punctuation_col[i] = questions_col[i]
+        punctuation_col.append(questions_col[i])
         questions_col[i] = expand_acronyms(acronyms, questions_col[i])
 
     data = {

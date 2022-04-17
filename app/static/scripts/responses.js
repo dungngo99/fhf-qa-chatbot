@@ -7,7 +7,7 @@ async function getBotResponse(input) {
   } else if (input == "Hi, I have a question!") {
     return { "answer": ["What's the question? Maybe we can help!"], "source": "", "question": "" };
   } else {
-    let url = 'https://fhf-qa-chatbot.herokuapp.com/answer';
+    let url = let url = 'http://127.0.0.1:5000/answer';;
     let data = { "message": input };
 
     try {
