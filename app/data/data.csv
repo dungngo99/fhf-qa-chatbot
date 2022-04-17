@@ -1,21 +1,21 @@
-questions,answers,sources
-What is an Local Education Agency,"LEA is the local education agency, also referred to as the local school district.",
-What is Individuals with Disabilities Education Act,"IDEA is the Individuals with Disabilities Education Act, the Federal special education law that guarantees FAPE.",
+questions,answers,sources,questions with punctuation
+What is an Local Education Agency,"LEA is the local education agency, also referred to as the local school district.",,What is an LEA?
+What is Individuals with Disabilities Education Act,"IDEA is the Individuals with Disabilities Education Act, the Federal special education law that guarantees FAPE.",,What is IDEA?
 What is Free Appropriate Public Education,"FAPE is Free Appropriate Public Education, the provision in IDEA to ensure states provide services to eligible students with disabilities.
 The FREE in FAPE means school services must be provided at public expense, under public supervision and direction, without charge. Uniformly assessed fees are permissible. A fee for a service may be charged only if this is a fee for all students in the school. The term ""at no cost"" does not preclude incidental fees that are normally charged to students without disabilities or their parents as part of the regular education program.
-Appropriate doesn’t mean the best. It means, All students, including those performing at grade level and those unable to perform at grade level, the school must offer an IEP that is “reasonably calculated to enable a child to make progress in light of the child’s circumstances.”",
-What is an Individualized Education Plan,IEP is an individualized Education Program that provides a written plan designed to meet the unique needs of the child with an exceptionality.,
-What is Least Restrictive Environment,"LRE is least restrictive environment. LRE is the foundation principle in IDEA that children with disabilities should be educated with their nondisabled peers, to the greatest extent possible.",
+Appropriate doesn’t mean the best. It means, All students, including those performing at grade level and those unable to perform at grade level, the school must offer an IEP that is “reasonably calculated to enable a child to make progress in light of the child’s circumstances.”",,What is FAPE?
+What is an Individualized Education Plan,IEP is an individualized Education Program that provides a written plan designed to meet the unique needs of the child with an exceptionality.,,What is an IEP?
+What is Least Restrictive Environment,"LRE is least restrictive environment. LRE is the foundation principle in IDEA that children with disabilities should be educated with their nondisabled peers, to the greatest extent possible.",,What is LRE?
 What is Positive Behavioral Interventions and Supports,"Positive Behavioral Interventions and Supports is an evidence-based three-tier framework for improving and integrating all of the data, systems, and practicing affecting student outcomes every day. It’s a way to support everyone – especially students with disabilities – to create the kinds of schools where all students are successful.
-PBIS isn’t a curriculum you purchase or something you learn during a one-day professional development training. It is a commitment to addressing student behavior through systems change. When it’s implemented well, students achieve improved social and academic outcomes, schools experience reduced exclusionary discipline practices, and school personnel feel more effective.","Center for Positive Behavior Interventions & Supports, a U.S. Department of Education funded Technical Assistance & Dissemination Center"
+PBIS isn’t a curriculum you purchase or something you learn during a one-day professional development training. It is a commitment to addressing student behavior through systems change. When it’s implemented well, students achieve improved social and academic outcomes, schools experience reduced exclusionary discipline practices, and school personnel feel more effective.","Center for Positive Behavior Interventions & Supports, a U.S. Department of Education funded Technical Assistance & Dissemination Center",What is PBIS?
 What is a Functional Behavioral Assessment,"A functional Behavioral Assessment is used to determine the function of the behavior and the factors that maintain it.  It helps teachers to understand the reason(s) (i.e., the function or functions) for a student’s behavior and then to use this information to design an intervention that will help the student learn a new, more acceptable method of getting what he or she wants. In many cases, challenging behaviors are an inappropriate way for a student to either obtain something desired (e.g., attention, a tangible item) or avoid something not preferred (e.g., a task or activity). An FBA should be considered when basic classroom interventions are ineffective and when the behavior:
 • Could cause injury to the student or others
 • Is intense or occurs frequently
-• Places the student at risk for referral to special education or a more restrictive placement","The IRIS Center, a U.S. Department of Education funded Technical Assistance & Dissemination Center"
-What is a Behavior Intervention Plan,"A BIP is a Behavior Intervention Plan.  Many students with disabilities – particularly those with emotional or behavioral disorders, have IEP’s that contain a BIP, which provide individualized procedures to prevent undesirable behaviors or to intervene when those behaviors occur.  ","The IRIS Center, a U.S. Department of Education funded Technical Assistance & Dissemination Center"
+• Places the student at risk for referral to special education or a more restrictive placement","The IRIS Center, a U.S. Department of Education funded Technical Assistance & Dissemination Center",What is a FBA?
+What is a Behavior Intervention Plan,"A BIP is a Behavior Intervention Plan.  Many students with disabilities – particularly those with emotional or behavioral disorders, have IEP’s that contain a BIP, which provide individualized procedures to prevent undesirable behaviors or to intervene when those behaviors occur.  ","The IRIS Center, a U.S. Department of Education funded Technical Assistance & Dissemination Center",What is a BIP?
 What is a Manifestation Determination Review,"A Manifestation Determination Review is used if a student with a disability violates the school’s code of conduct, the student’s IEP team must meet to determine whether the behavior was the result of either:
 • The student’s disability, or
-• Poor implementation of the student’s IEP.",
+• Poor implementation of the student’s IEP.",,What is a MDR?
 What is Child Find,"The LDE shall ensure that: 
      a. all students with disabilities residing in the state, including students with disabilities who are homeless children or who are wards of the state, and students with disabilities attending private schools, regardless of the severity of their disability, and who are in need of special education and related services, are identified, located, and evaluated; and 
      b. a practical method is developed and implemented to determine which students are currently receiving needed special education and related services. 
@@ -24,9 +24,9 @@ What is Child Find,"The LDE shall ensure that:
      a. is enrolled in an educational program operated by or under the jurisdiction of a public agency; 
      b. is enrolled in a private school program within the geographical jurisdiction of a public agency; 
      c. is enrolled in a public or private preschool or day care program; or 
-     d. is not enrolled in a school, except for students who have graduated with a regular high school diploma.","Louisiana Bulletin 1706, §111 A"
-Should I have my child evaluated for special education,"If your child is between 3 and 21 and having academic, social, or behavioral problems, you may consider getting your child evaluated. In Louisiana, this is called a 1508 evaluation. Many struggling learners first go through the School Building Level Committee (SBLC) and receive interventions (RTI) before they are referred for an evaluation.",
-What is Response to Intervention,"The Response to Intervention (RTI) process is a three-tiered approach to providing services and interventions to struggling learners and/or students with challenging behaviors at increasing levels of intensity. Essential components of the process include three tiers of instruction and intervention, use of standard protocols and/or problem-solving methods, and an integrated data collection/assessment system to inform decisions at each tier of instruction/intervention. The process incorporates increasing intensities of instruction and/or intervention that are provided to students in direct proportion to their individual needs. Embedded in each tier is a set of unique support structures or activities that help teachers implement, with fidelity, research-based curricula, instructional practices, and interventions designed to improve student achievement. RTI is designed for use when making decisions in both general and special education, creating a well-integrated system of instruction and intervention guided by student outcome data.","Louisiana Bulletin 1508, §301"
+     d. is not enrolled in a school, except for students who have graduated with a regular high school diploma.","Louisiana Bulletin 1706, §111 A",What is Child Find?
+Should I have my child evaluated for special education,"If your child is between 3 and 21 and having academic, social, or behavioral problems, you may consider getting your child evaluated. In Louisiana, this is called a 1508 evaluation. Many struggling learners first go through the School Building Level Committee (SBLC) and receive interventions (RTI) before they are referred for an evaluation.",,Should I have my child evaluated for special education?
+What is Response to Intervention,"The Response to Intervention (RTI) process is a three-tiered approach to providing services and interventions to struggling learners and/or students with challenging behaviors at increasing levels of intensity. Essential components of the process include three tiers of instruction and intervention, use of standard protocols and/or problem-solving methods, and an integrated data collection/assessment system to inform decisions at each tier of instruction/intervention. The process incorporates increasing intensities of instruction and/or intervention that are provided to students in direct proportion to their individual needs. Embedded in each tier is a set of unique support structures or activities that help teachers implement, with fidelity, research-based curricula, instructional practices, and interventions designed to improve student achievement. RTI is designed for use when making decisions in both general and special education, creating a well-integrated system of instruction and intervention guided by student outcome data.","Louisiana Bulletin 1508, §301",What is RTI?
 What is the School Building Level Committee,"The School Building Level Committee (SBLC) goes by several different
 names, but all have the same function. Some districts call it the Student
 Assessment Team, Academic Behavior Intervention Team and other
@@ -47,30 +47,30 @@ the RTI process.
 Section 504 evaluation.
      5. Refer the student to pupil appraisal personnel for support
 services.
-     6. Refer the student to pupil appraisal p","Louisiana Bulletin 1508, §303"
+     6. Refer the student to pupil appraisal p","Louisiana Bulletin 1508, §303",What is the School Building Level Committee?
 Can the school district refuse to evaluate my child until he or she goes through the Response to Intervention process,"No, The Office of Special Education Programs under the U.S.
 Department of Education made it clear a school district cannot delay or
-deny the evaluation process due to RTI. ","(OSEP Memorandum dated January 21, 2011)"
+deny the evaluation process due to RTI. ","(OSEP Memorandum dated January 21, 2011)",Can the school district refuse to evaluate my child until he or she goes through the RTI process?
 Can the school use my private evaluation to expedite the evaluation process,"The school district is required to review all pertinent reports supplied
 by the parent or an outside agency during the evaluation process.
 Normally, these private evaluations don’t meet the requirements of 1508
-and therefore the district will conduct their own evaluation. ","(Louisiana Bulletin 1508, §513 A 3) "
+and therefore the district will conduct their own evaluation. ","(Louisiana Bulletin 1508, §513 A 3) ",Can the school use my private evaluation to expedite the evaluation process?
 Is the public school system required to evaluate my child that attends a private school for free,"Yes, if you suspect your child is a child is a disability, the public school
 system is obligated to evaluate your child under Bulletin 1508 guidelines,
-at no cost to the parent or private school your child is attending. ","(Louisiana Bulletin 1508, §103 A 2)"
+at no cost to the parent or private school your child is attending. ","(Louisiana Bulletin 1508, §103 A 2)",Is the public school system required to evaluate my child that attends a private school for free?
 What does 1508 evaluation mean,"Bulletin 1508 is the regulatory guide for pupil appraisal personnel
 when conducting individual evaluations of students suspected of being
 exceptional and in need of special education and related services, and as
 a reference for persons requiring specific information regarding the
-determination of eligibility for special education services","(Louisiana Bulletin 1508, §101 A)"
+determination of eligibility for special education services","(Louisiana Bulletin 1508, §101 A)",What does 1508 evaluation mean?
 What are the exceptionalities,"The exceptionalities are Autism, Deaf-Blindness, Developmental
 Delay, Emotional Disturbance, Hearing Impairment, Intellectual Disability,
 Multiple Disabilities, Orthopedic Impairment, Other Health Impaired,
 Specific Learning Disability, Speech or Language Impairment, Traumatic
 Brain Injury, Visual Impairment,","(Louisiana Bulletin 1508. §701, §703, §705, §707, §709, §711, §713, §715,
-§717, §719, §721, §723, & §725)"
+§717, §719, §721, §723, & §725)",What are the exceptionalities?
 How long does it take to get my child evaluated,"The initial evaluation must be conducted within 60 business days of
-receiving parental consent. ","(Louisiana Bulletin 1508, §511 A)"
+receiving parental consent. ","(Louisiana Bulletin 1508, §511 A)",How long does it take to get my child evaluated?
 Can the school ask for evaluation extensions,"If the LEA begins an evaluation and there are fewer than 60 business
 days remaining in the LEA's current school year, the LEA may take this type
 of extension with parent permission. However, the number of days used
@@ -83,23 +83,23 @@ areas of the suspected exceptionality, the parent and the LEA may agree
 to a specific time when the evaluation will be completed.
 
 Extensions are not allowed during expedited evaluations for students
-subject to disciplinary measures as referenced in n §534 of Bulletin 1706.","(Louisiana Bulletin 1508, §511 A-B)"
+subject to disciplinary measures as referenced in n §534 of Bulletin 1706.","(Louisiana Bulletin 1508, §511 A-B)",Can the school ask for evaluation extensions?
 What happens if the parent disagree with the evaluation,"The parents of a student with a disability or an exceptionality have a
 right to obtain an independent educational evaluation (IEE) of the student
-as described in Chapter 5 of Bulletin 1706.","(Louisiana Bulletin 1508, §515)"
-"If my child is eligible for special education services, how long will it take to start the services","The local education agency (LEA) also referred to as the school district
+as described in Chapter 5 of Bulletin 1706.","(Louisiana Bulletin 1508, §515)",What happens if the parent disagree with the evaluation?
+If my child is eligible for special education services how long will it take to start the services,"The local education agency (LEA) also referred to as the school district
 has a maximum of 30 calendar days to complete the IEP/placement
-document for an eligible student. ","(Louisiana Bulletin 1530, §105 A)"
+document for an eligible student. ","(Louisiana Bulletin 1530, §105 A)","If my child is eligible for special education services, how long will it take to start the services?"
 Will I receive a notice about the Individualized Education Plan meeting,"Yes, a written notice must be provided to the parents of the child. The
 notice must be provided in the parents’ native language or shall be given
 using other means of communication, whenever necessary, to ensure
-parental understanding. ","(Louisiana Bulletin 1530, §105 A 1)"
+parental understanding. ","(Louisiana Bulletin 1530, §105 A 1)",Will I receive a notice about the IEP meeting?
 Does the school have to tell me who will be attending the meeting,"The notice shall indicate the purpose, time, and location of the IEP Team
 meeting; who will be in attendance; when a LEA IEP Team member
 needs to be excused from attending the meeting; the parents' right to
 take other participants to the meeting; the student's right to participate
 (when appropriate); and the name of the person in the LEA the parents
-can contact when they have questions or concerns ","(Louisiana Bulletin 1530, §105 A 1 b-f)"
+can contact when they have questions or concerns ","(Louisiana Bulletin 1530, §105 A 1 b-f)",Does the school have to tell me who will be attending the meeting?
 Who are the Individualized Education Plan team members,"At any IEP Team meeting, the following participants shall be in
 attendance: an officially designated representative of the Local
 Education Agency (LEA), the student's regular education and special
@@ -107,7 +107,7 @@ education teachers, the student's parents, and a person knowledgeable
 about the student's evaluation procedures and results. The student, as
 well as other individuals the parents and/or LEA may deem necessary,
 should be given the opportunity to attend. Documentation of
-attendance is required. ","(Louisiana Bulletin 1530, §107 A)"
+attendance is required. ","(Louisiana Bulletin 1530, §107 A)",Who are the IEP team members?
 Are parents equal Individualized Education Plan team members,"Yes, parents are equal participants in the IEP process in discussing the
 educational and related services needs of the student and in deciding
 which placement and other services are appropriate. As such, one or
@@ -118,7 +118,7 @@ insight about the student's strengths and support needs, learning style,
 temperament, ability to work in various environments, and acquired
 adaptive skills is of vital importance to the team in making decisions
 about the student's needs and services. The concerns of the parents for
-enhancing the education of their child shall be documented in the IEP. ","(Louisiana Bulletin 1530, §107 A 2)"
+enhancing the education of their child shall be documented in the IEP. ","(Louisiana Bulletin 1530, §107 A 2)",Are parents equal IEP team members?
 Who is considered a parent on the Individualized Education Plan team,"Parent is defined as a biological or adoptive parent of a child; a foster
 parent; a guardian, generally authorized to act as the child's parent or
 authorized to make educational decisions for the child, but not the state
@@ -126,14 +126,14 @@ if the child is a ward of the state; an individual acting in the place of a
 biological or adoptive parent of a child (including a grandparent,
 stepparent, or other relative) with whom the child lives or an individual
 who is legally responsible for the child's welfare; or a surrogate parent
-who has been appointed to act in the child's behalf. ","(Louisiana Bulletin 1530, §107 A 2 a, d)"
+who has been appointed to act in the child's behalf. ","(Louisiana Bulletin 1530, §107 A 2 a, d)",Who is considered a parent on the IEP team?
 What is the parent of the child has a disability or doesn’t speak English,"The Local Education Agency (LEA) shall take measures to ensure that
 parents and all other team members, including sensorially impaired and
 non-English-speaking participants, can understand and actively
 participate in discussions and decision-making. These measures (i.e.,
 having an interpreter or translator) should be documented. LEAs shall
 further ensure that, for those parents who cannot physically attend the
-IEP Team meetings, every effort is made to secure parental participation. ","(Louisiana Bulletin 1530, §107 A 2 b)"
+IEP Team meetings, every effort is made to secure parental participation. ","(Louisiana Bulletin 1530, §107 A 2 b)",What is the parent of the child has a disability or doesn’t speak English?
 Is the student required to attend the Individualized Education Plan Meeting,"The student should be given the opportunity to participate in the
 development of the IEP. In many cases, the student will share
 responsibility for goals and objectives.
@@ -143,8 +143,8 @@ meeting will be the consideration of postsecondary goals and the
 transition services needed in reaching those goals. The LEA shall invite
 the student and, as part of the notification to the parents of the IEP
 Team meeting, inform the parents that the LEA will invite the student to
-the meeting. ","(Louisiana Bulletin 1530, §107 A 6)"
-"Can Individualized Education Plan members miss the Individualized Education Plan meeting, come in late, or leave early","A member of the IEP Team is not required to attend an IEP Team
+the meeting. ","(Louisiana Bulletin 1530, §107 A 6)",Is the student required to attend the IEP Meeting?
+Can Individualized Education Plan members miss the Individualized Education Plan meeting come in late or leave early,"A member of the IEP Team is not required to attend an IEP Team
 meeting, in whole or in part, when the parent of the student with an
 exceptionality and the public agency agree, in writing, that the
 attendance of the member is not necessary because the member's area
@@ -159,7 +159,7 @@ services, when:
      a. the parent, in writing, and the public agency consent to the excusal;
 and b. the member submits, in writing to the parent and
      b. the IEP Team, input into the development of the IEP prior to the
-meeting.","(Louisiana Bulletin 1530, §107 B 2)"
+meeting.","(Louisiana Bulletin 1530, §107 B 2)","Can IEP members miss the IEP meeting, come in late, or leave early?"
 Is there a time limit on Individualized Education Plan meetings,"Nowhere in the regulations address a time limit on IEP meetings. The
 law doesn’t provide any guidance on the minimum or maximum amount
 of minutes to meet. But the meeting should be long enough to provide
@@ -176,7 +176,7 @@ days and block out specific short time frames. This is completely
 inappropriate for an initial IEP meeting or any annual IEP meetings.
 There is no way you can adequately go over the necessary IEP items in a
 predetermined minimum period. As a rule of thumb, plan on an hour at
-a minimum.",
+a minimum.",,Is there a time limit on IEP meetings?
 Who can have access to my child’s Individualized Education Plan,"The student's IEP is accessible to each regular education teacher, special
 education teacher, related services provider, and any other service
 provider who is responsible for its implementation; and
@@ -184,7 +184,7 @@ provider who is responsible for its implementation; and
 a. his or her specific responsibilities related to implementing the
 student's IEP; and
 b. the specific accommodations, modifications, and supports that shall
-be provided for the student in accordance with the IEP. ","(Louisiana Bulletin 1530, §109 A)"
+be provided for the student in accordance with the IEP. ","(Louisiana Bulletin 1530, §109 A)",Who can have access to my child’s IEP?
 Are there different types of IEPs,"Yes, there are three types of IEPs for Students with exceptionalities. The
 Initial IEP is developed for a student with an exceptionality who has met
 criteria for one or more exceptionalities outlined in Bulletin 1508, Pupil
@@ -213,7 +213,7 @@ former special education students, through the age of twenty-two, who
 have left a public school without completing their public education by
 obtaining a state diploma.
 
-","SOURCE: (Louisiana Bulletin 1530, §11)"
+","SOURCE: (Louisiana Bulletin 1530, §11)",Are there different types of IEPs?
 Can an Individualized Education Plan be amended without a meeting,"In making changes to a student's IEP after the annual IEP Team meeting
 for a school year, the parent of a student with a disability and the public
 agency may agree not to convene an IEP Team meeting for the purposes
@@ -229,9 +229,9 @@ student's IEP Team is informed of those changes.
 IEP Team meeting or by amending the IEP rather than by redrafting the
 entire IEP.
 4. A parent must be provided with a revised copy of the IEP with the
-amendments incorporated. ","(Louisiana Bulletin 1530, §113 A)"
-What does placement mean,The term placement refers to the setting or class in which the student will receive special educational services.,"(Louisiana Bulletin 1530, §115 A)"
-How is placement decided,"The IEP Team, following a discussion of the student's educational needs, shall choose a setting in which the educational needs will be addressed. The official designated representative shall be knowledgeable about placement considerations and shall be responsible for informing the IEP Team members. The IEP Team, including the parent, shall participate in discussions and decisions made about the placement.","(Louisiana Bulletin 1530, §115 A)"
+amendments incorporated. ","(Louisiana Bulletin 1530, §113 A)",Can an IEP be amended without a meeting?
+What does placement mean,The term placement refers to the setting or class in which the student will receive special educational services.,"(Louisiana Bulletin 1530, §115 A)",What does placement mean?
+How is placement decided,"The IEP Team, following a discussion of the student's educational needs, shall choose a setting in which the educational needs will be addressed. The official designated representative shall be knowledgeable about placement considerations and shall be responsible for informing the IEP Team members. The IEP Team, including the parent, shall participate in discussions and decisions made about the placement.","(Louisiana Bulletin 1530, §115 A)",How is placement decided?
 What type of discussion or issues should be considered when deciding placement,"Placement Considerations for Students with Disabilities whose ages are
 6-21.
 1. For the location of instruction/services, IEP Team members should
@@ -273,8 +273,8 @@ necessary to meet the student's identified needs while providing
 meaningful opportunities for interactions with peers without
 disabilities?
 c. What accommodations, supports, and/or related services are needed
-to meet the student's identified needs?","(Louisiana Bulletin 1530, §115 B-C)"
-What are my placement options for a school-aged student,"For Students with Exceptionalities ages 6-21. The Educational
+to meet the student's identified needs?","(Louisiana Bulletin 1530, §115 B-C)",What type of discussion or issues should be considered when deciding placement?
+What are my placement options for a schoolaged student,"For Students with Exceptionalities ages 6-21. The Educational
 Environments are listed below in a continuum from least to most
 restrictive. This list is not a continuum of least restrictive environment
 for the deaf or hard-of-hearing students
@@ -304,7 +304,7 @@ of the school day.
 6. Hospital/Homebound. Hospital programs or homebound
 programs―students should be receiving a minimum of 4 hours of
 services per week. Refer to Bulletin 741, §1103 for more information.
-7. Correctional Facilities. Short-term detention facilities (communitybased or residential); or correctional facilities.","(Louisiana Bulletin 1530, §117 B)"
+7. Correctional Facilities. Short-term detention facilities (communitybased or residential); or correctional facilities.","(Louisiana Bulletin 1530, §117 B)",What are my placement options for a school-aged student?
 What are the placement options for a child 3 to 5 years of age,"For Students with Exceptionalities Ages 3-5. In determining the
 appropriate setting for a preschool-aged student, each setting noted
 shall be considered; but the list should not be considered a continuum of
@@ -349,7 +349,7 @@ program or a special education program provided in a separate class,
 separate school, or residential facilities. For example, speech therapy is
 provided in private clinicians’ offices; clinicians’ offices located in school
 buildings; hospital facilities on an outpatient basis, and libraries and
-other public locations.",
+other public locations.",,What are the placement options for a child 3 to 5 years of age?
 Will my child go to their regular neighborhood school,"In most cases yes. Although, throughout Louisiana most students with
 exceptionalities are served in their neighborhood schools there are some
 extenuating circumstances that influence the decision to serve a student
@@ -366,21 +366,21 @@ special education needs, not as a result of their particular disabling
 condition; and
 2. Placement cannot be based either on a particular LEA's special
 education delivery system or on the availability of related services.","(Louisiana Bulletin 1530, §131)
-(Louisiana Bulletin 1530, §129 A-B)"
+(Louisiana Bulletin 1530, §129 A-B)",Will my child go to their regular neighborhood school?
 Do parents need to consent to special education services,"The LEA shall obtain formal parental consent before it can initially
 provide a student with special education and related services in any
 setting.
 
 A student consent is needed once the student reaches the age of
 majority, which is age eighteen in Louisiana, unless the student has been
-determined to be incompetent under state law. ","(Louisiana Bulletin 1530, §119 A-B)"
+determined to be incompetent under state law. ","(Louisiana Bulletin 1530, §119 A-B)",Do parents need to consent to special education services?
 What happens if I disagree with the services or placement in the Individualized Education Plan,"Parents may disagree with all or some parts of the program, placement,
 or related services proposals. The LEA and the parents should make
 conciliatory attempts to resolve the disputes, including making
 modifications to the proposed program, placement, and related services.
 A LEA may not use a parent's refusal to consent to one service or activity
 to deny the parent or student any other service, benefit, or activity of
-the LEA.","(Louisiana Bulletin 1530, §121 A)"
+the LEA.","(Louisiana Bulletin 1530, §121 A)",What happens if I disagree with the services or placement in the IEP?
 What happens if I refuse to consent to the Individualized Education Plan,"When the parent of the student refuses to consent to the initial
 provision of special education and related services, or the parent fails to
 respond to a request to provide consent for the initial provision of
@@ -396,7 +396,7 @@ the special education and related services for which the public agency
 requests consent; and
 3. is not required to convene an IEP Team meeting or develop an IEP for
 the student for the special education and related services for which the
-public agency requests such consent. ","(Louisiana Bulletin 1530, §123 A)"
+public agency requests such consent. ","(Louisiana Bulletin 1530, §123 A)",What happens if I refuse to consent to the IEP?
 Can a parent revoke their consent for an Individualized Education Plan,"If, at any time after the initial provision of special education and related
 services, the parent of a child revokes consent in writing for the
 continued provision of special education and related services the LEA:
@@ -413,8 +413,8 @@ FAPE available to the student because of the failure to provide the
 student with further special education and related services; and
 4. Is not required to convene an IEP Team meeting or develop an IEP for
 the student for further provision of special education and related
-services.","(Louisiana Bulletin 1530, §123 B)"
-"If the Individualized Education Plan team can’t come to an agreement, what options are available to resolve the disagreement","The Louisiana Department of Education has adopted written procedures
+services.","(Louisiana Bulletin 1530, §123 B)",Can a parent revoke their consent for an IEP?
+If the Individualized Education Plan team can’t come to an agreement what options are available to resolve the disagreement,"The Louisiana Department of Education has adopted written procedures
 regarding the resolution of any complaint related to the identification,
 evaluation, educational placement, the level of services or placement,
 and the provision of FAPE. Options include:
@@ -454,7 +454,7 @@ Due process hearings may be initiated by the parent or the LEA. See
 Louisiana's Educational Rights of Children with Disabilities Handbook or
 Louisiana's Educational Rights of Gifted/Talented Children in Public
 Schools and the Special Education Impartial Due Process Hearing
-brochure for more information.","(Louisiana Bulletin 1530, §125)"
+brochure for more information.","(Louisiana Bulletin 1530, §125)","If the IEP team can’t come to an agreement, what options are available to resolve the disagreement?"
 Can my child attend an inclusion class,"IDEA nor Bulletin 1706 recognize inclusion, but they do recognize Least
 Restrictive Environment (LRE). Each public agency shall ensure that:
 a. To the maximum extent appropriate, students with disabilities,
@@ -464,16 +464,16 @@ b. Special classes, separate schooling, or other removal of students with
 disabilities from the regular educational environment occurs only if the
 nature or severity of the disability is such that education in regular
 classes with the use of supplementary aids and services cannot be
-achieved satisfactorily. ","(Louisiana Bulletin 1706, §114. A 1-2)"
+achieved satisfactorily. ","(Louisiana Bulletin 1706, §114. A 1-2)",Can my child attend an inclusion class?
 Is there an age limit on the different ages in the same special education class,"Unless specifically permitted by the State Board of Elementary and
 Secondary Education, there shall not be a chronological age span of
-more than three years within a special education class.","(Louisiana Bulletin 1530, §127 )"
+more than three years within a special education class.","(Louisiana Bulletin 1530, §127 )",Is there an age limit on the different ages in the same special education class?
 How often do we have an Individualized Education Plan meeting,"An LEA is required to initiate and conduct IEP Team meetings
 periodically, but not less than annually, to review each student's IEP in
 order to determine whether the annual goals for the student are being
 achieved and to revise the IEP as appropriate. The LEA shall notify
 parents of the review IEP Team meeting in accordance with the same
-procedures as the initial IEP.","(Louisiana Bulletin 1530, §301 D)"
+procedures as the initial IEP.","(Louisiana Bulletin 1530, §301 D)",How often do we have an IEP meeting?
 Can the school purchase my child an Assistive Technology Device,"Each public agency shall ensure that assistive technology devices or
 assistive technology services, or both, as those terms are defined in
 §905, are made available to a student with a disability if required as a
@@ -484,15 +484,15 @@ part of the student's:
 B.        On a case-by-case basis, the use of school-purchased assistive
 technology devices in a student's home or in other settings is required if
 the student's IEP team determines that the student needs access to
-those devices in order to receive FAPE.","(Louisiana Bulletin 1706, §105)"
-How does my child qualify for Extended School Year Services (ESY),"The IEP Team will consider the criterion/criteria to make the ESY
+those devices in order to receive FAPE.","(Louisiana Bulletin 1706, §105)",Can the school purchase my child an Assistive Technology Device?
+How does my child qualify for Extended School Year Services Extended School Year Services,"The IEP Team will consider the criterion/criteria to make the ESY
 determination and what data must be collected to make that decision.
 The data collected through progress monitoring (e.g., grades, progress
 reports, behavior checklists, task analyses, teacher observation logs,
 etc.) shall be reviewed to determine the progress the student makes
 toward acquisition of the measurable annual goals and/or
 objectives/benchmarks, and whether the data supports that, the student
-meets any of the criteria for ESY eligibility. ","(Louisiana Bulletin 1530, §303 A 15)"
+meets any of the criteria for ESY eligibility. ","(Louisiana Bulletin 1530, §303 A 15)",How does my child qualify for Extended School Year Services (ESY)?
 Can my Child’s Individualized Education Plan include extracurricular services,"The LDE shall ensure the following:
 
 1. Each public agency shall take steps, including the provision of
@@ -508,7 +508,7 @@ recreational activities, special interest groups or clubs sponsored by the
 public agency, referrals to agencies that provide assistance to individuals
 with disabilities, and employment of students, including both
 employment by the public agency and assistance in making outside
-employment available.","(Louisiana Bulletin 1706, §107 A-B)"
+employment available.","(Louisiana Bulletin 1706, §107 A-B)",Can my Child’s IEP include extracurricular services?
 What is the age a child can receive special education services,"In Louisiana, qualifying children from birth through their 2nd birthday
 can receive early intervention services through Early Steps. Federally, this is referred to as Part C Services under the Individuals with
 Disabilities Education Act (IDEA).
@@ -521,11 +521,11 @@ b. The student reaches his or her 22nd birthday. When the 22nd
 birthday occurs during the course of the regular school session, and all
 action steps in the transition plan have not been completed, the student
 should be allowed to remain in school for the remainder of the school
-year.","(Louisiana Bulletin 1530, §103 C 2)"
+year.","(Louisiana Bulletin 1530, §103 C 2)",What is the age a child can receive special education services?
 Does my child have to fail in order to qualify for special education services,"No, the state shall ensure that FAPE is available to any individual student
 with a disability who needs special education and related services, even
 though the student has not failed or been retained in a course or grade,
-and is advancing from grade to grade.",(Bulletin 1706. §101C)
+and is advancing from grade to grade.",(Bulletin 1706. §101C),Does my child have to fail in order to qualify for special education services?
 Will students aging out of Early Steps automatically qualify for special education services,"Unfortunately no. IDEA requires that certain steps be taken when a
 child transitions out of Early Steps services at age 3. It is required that the
 Part C Lead agency, which is Early Steps in Louisiana, notify the LEA for the
@@ -554,6 +554,6 @@ under Part C of the IDEA, and who will participate in preschool programs
 assisted under Part B of the IDEA, experience a smooth and effective
 transition to those preschool programs in a manner consistent with 
 2.        by the third birthday of a child described in Paragraph 1 of this Section, an IEP has been developed and is being implemented for the child consistent with §101.B; and 
-3.        each affected LEA will participate in transition planning conferences arranged by the designated lead agency under Section 635(a)(10) of the IDEA.",(Bulletin 1706. §101C)
-Why does my child need to be evaluated by the school district if he or she already has an autism diagnosis from the doctor,"Typically a medical diagnosis doesn’t include the required information for a school classification. Unless your medical provider completed the required components of Bulletin 1508, they will need to meet the qualifications for Autism in Bulletin 1508.","(Louisiana Bulletin 1508, §701)"
-Is Special Education only for children with intellectual delays?,"No, most children receiving special education or related services do not have intellectual delays. Special education services are available for any child, ages 3 to 21 that meet the requirements of one of the exceptionalities in Bulletin 1508",
+3.        each affected LEA will participate in transition planning conferences arranged by the designated lead agency under Section 635(a)(10) of the IDEA.",(Bulletin 1706. §101C),Will students aging out of Early Steps automatically qualify for special education services?
+Why does my child need to be evaluated by the school district if he or she already has an autism diagnosis from the doctor,"Typically a medical diagnosis doesn’t include the required information for a school classification. Unless your medical provider completed the required components of Bulletin 1508, they will need to meet the qualifications for Autism in Bulletin 1508.","(Louisiana Bulletin 1508, §701)",Why does my child need to be evaluated by the school district if he or she already has an autism diagnosis from the doctor?
+Is Special Education only for children with intellectual delays?,"No, most children receiving special education or related services do not have intellectual delays. Special education services are available for any child, ages 3 to 21 that meet the requirements of one of the exceptionalities in Bulletin 1508",,
