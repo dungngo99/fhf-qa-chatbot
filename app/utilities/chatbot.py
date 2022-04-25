@@ -47,7 +47,7 @@ async def find_answer(user: str) -> Dict:
 
     # if the most similar score does not pass the threshold, return None
     if sorted_ranks[0][1] < THRESHOLD:
-        return {"question": "", "answer": "", "source": ""}
+        return {"question": "", "answer": "We weren't able to match your question. Try rephrasing!", "source": ""}
 
     best_idx = sorted_ranks[0][0]
     return {"question": df.iloc[best_idx, 3], "answer": df.iloc[best_idx, 1], "source": df.iloc[best_idx, 2]}
