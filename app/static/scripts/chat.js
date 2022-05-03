@@ -100,5 +100,3 @@ $("#textInput").keypress(function (e) {
     getResponse();
   }
 })
-
-// firstBotMessage();
